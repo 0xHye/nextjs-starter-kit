@@ -21,11 +21,12 @@ export default function RegisterPage() {
       </CardHeader>
       <CardContent className="space-y-6">
         {/* 회원가입 폼 */}
-        <form className="space-y-4">
+        <form className="space-y-4" method="post">
           <FormField
             label="이름"
             name="name"
             placeholder="홍길동"
+            autoComplete="name"
             required
           />
 
@@ -34,6 +35,7 @@ export default function RegisterPage() {
             name="email"
             type="email"
             placeholder="you@example.com"
+            autoComplete="email"
             required
           />
 
@@ -42,6 +44,7 @@ export default function RegisterPage() {
             name="password"
             type="password"
             description="최소 8자 이상"
+            autoComplete="new-password"
             required
           />
 
@@ -49,6 +52,7 @@ export default function RegisterPage() {
             label="비밀번호 확인"
             name="confirmPassword"
             type="password"
+            autoComplete="new-password"
             required
           />
 

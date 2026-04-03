@@ -37,18 +37,20 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
         )}
 
         {/* 로그인 폼 */}
-        <form className="space-y-4">
+        <form className="space-y-4" method="post">
           <FormField
             label="이메일"
             name="email"
             type="email"
             placeholder="you@example.com"
+            autoComplete="email"
             required
           />
           <FormField
             label="비밀번호"
             name="password"
             type="password"
+            autoComplete="current-password"
             required
           />
 
