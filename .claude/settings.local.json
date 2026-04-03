@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(npx shadcn@latest add sidebar table pagination tabs accordion command popover -y)",
+      "Bash(rm:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
