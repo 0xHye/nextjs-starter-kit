@@ -9,7 +9,6 @@ export const SITE_CONFIG = {
 export const NAV_LINKS = [
   { label: "홈", href: "/" },
   { label: "소개", href: "/about" },
-  { label: "가격", href: "/pricing" },
 ] as const;
 
 // 대시보드 사이드바 내비게이션 (lucide-react 아이콘 이름)
