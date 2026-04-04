@@ -1,0 +1,3 @@
+- [프로젝트 개요](project_overview.md) — Next.js 15, React 19, Atomic Design 기반, 스타터킷
+- [코드 패턴](code_patterns.md) — 타입 정의, 컴포넌트, 스타일, 훅 패턴 및 아이콘 맵핑
+- [Critical 이슈 5가지](critical_issues.md) — FormField, 회원가입, 로그인, 인증, Button 타입
