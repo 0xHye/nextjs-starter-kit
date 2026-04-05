@@ -6,8 +6,10 @@
       "Bash(rm:*)",
       "Bash(npm run:*)",
       "mcp__playwright",
+      "mcp__sequential-thinking",
       "Bash(bash /c/Users/user-pc/Desktop/develop/claude-nextjs-starts/.claude/hooks/notify-stop.sh)",
-      "Bash(bash -x /c/Users/user-pc/Desktop/develop/claude-nextjs-starts/.claude/hooks/notify-stop.sh)"
+      "Bash(bash -x /c/Users/user-pc/Desktop/develop/claude-nextjs-starts/.claude/hooks/notify-stop.sh)",
+      "Bash(git push:*)"
     ]
   }
 }
